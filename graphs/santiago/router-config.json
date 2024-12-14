@@ -1,0 +1,30 @@
+{
+    "routingDefaults": {
+        "walkSpeed": 1.4,
+        "transferSlack": "120s",
+        "boardSlack": "30s",
+        "alightSlack": "30s",
+        "extraEdgeWeight": {
+        "timeBasedMultipliers": {
+            "05:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "06:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "06:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "07:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "07:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "08:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "08:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "09:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "09:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "10:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "10:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "11:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "11:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "23:00:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ],
+            "23:30:00": [ { "min": 0, "max": 9, "multiplier": 0.5 }, { "min": 10, "max": 50, "multiplier": 1.0 }, { "min": 51, "max": 1000, "multiplier": 2.0 } ]
+        }
+        },
+	"transferPenalty": 300,
+	"walkReluctance": 500.0,
+	"walkSpeed": 1.4
+    }
+}
